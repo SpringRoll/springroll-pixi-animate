@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>NestedTimelines</title>
+        <meta name="generator" content="PixiAnimate Extension">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    </head>
+    <body>
+        <canvas id="stage" width="1280" height="720"></canvas>
+        <script src="libs/pixi.js"></script>
+        <script src="libs/pixi-animate.js"></script>
+        <script src="NestedTimelines.js"></script>
+        <script>
+            //TODO: Convert this to Springroll
+            var scene = new PIXI.animate.Scene(1280, 720, {
+                view: document.getElementById("stage"),
+                backgroundColor: 0x339966,
+                antialias: true
+            });
+            scene.load(lib.NestedTimelines);
+        </script>
+    </body>
+</html>

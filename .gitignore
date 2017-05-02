@@ -1,0 +1,5 @@
+docs
+components
+node_modules
+.grunt
+examples/NestedTimelines/settings.png

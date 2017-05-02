@@ -1,0 +1,29 @@
+{
+	"name": "springroll-pixi-animate",
+	"version": "1.0.0",
+	"main": "dist/springroll-pixi-animate.min.js",
+	"dependencies": {
+		"springroll": "^1.0.0",
+		"springroll-pixi-display": "^4.0.0"
+	},
+	"devDependencies": {
+		"google-code-prettify": "*",
+		"bind-polyfill": "*"
+	},
+	"ignore": [
+		"Gruntfile.js",
+		"tasks",
+		"examples",
+		"docs",
+		"src",
+		"test",
+		"tools",
+		".bowerrc",
+		".editorconfig",
+		".travis.yml",
+		".gitattributes",
+		"library.json",
+		"package.json",
+		".gitignore"
+	]
+}

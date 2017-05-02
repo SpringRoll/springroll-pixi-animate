@@ -1,0 +1,24 @@
+{
+	"name": "springroll-pixi-animate",
+	"version": "1.0.0",
+	"main": "dist/springroll-pixi-animate.min.js",
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"library-grunt": "~0.6.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SpringRoll/springroll-pixi-animate"
+	},
+	"bugs": {
+		"url": "https://github.com/SpringRoll/springroll-pixi-animate/issues"
+	},
+	"keywords": [
+		"pixi",
+		"pixijs",
+		"springroll",
+		"educational",
+		"cross-browser"
+	],
+	"license": "MIT"
+}

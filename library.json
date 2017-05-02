@@ -1,0 +1,16 @@
+{
+	"name": "SpringRoll Pixi Animate",
+	"version": "1.0.0",
+	"description": "A SpringRoll plugin to assist in using Pixi Animate",
+	"url": "https://github.com/SpringRoll/springroll-pixi-animate",
+	"output": "springroll-pixi-animate",
+	"main": [
+		"src/AnimateArt.js",
+		"src/AnimateArtTask.js",
+		"src/Shapes.js",
+		"src/JSONTask.js",
+		"src/ShapesTask.js",
+		"src/MovieClipInstance.js",
+		"src/PixiAnimatePlugin.js"
+	]
+}
